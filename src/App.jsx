@@ -24,7 +24,7 @@ const App = () => {
   const completeTask = todos.filter((t)=>t.completed===true)
   return (
     <div className="h-screen flex justify-center items-center bg-gradient-to-r from-green-500 to-blue-700">
-      <div className="p-16 bg-amber-400 rounded-2xl shadow-lg">
+      <div className="p-16 bg-pink-400 rounded-2xl shadow-lg">
         <h1 className="text-3xl font-bold">React TODO list </h1>
         <div className="flex mt-5 mb-3">
           <input
@@ -67,7 +67,7 @@ const App = () => {
           )}
         </ul>
         <div>
-          <p> All Task {todos.length} Completed Task {completeTask.length} </p>
+          <p> All Task {todos.length} Completed Task 9999999999999999999999 {completeTask.length} </p>
         </div>
       </div>
     </div>
